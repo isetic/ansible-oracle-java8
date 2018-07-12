@@ -1,0 +1,4 @@
+- name: windows | Installing Java8
+  win_chocolatey:
+     name: jre8
+     state: present
