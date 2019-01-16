@@ -1,7 +1,7 @@
 ---
 - name: debian | installing pre-reqs
   apt:
-    name: 
+    name:
     - software-properties-common
     state: present
 
@@ -25,7 +25,7 @@
 
 - name: debian | installing Oracle Java8
   apt:
-    name: 
+    name:
     - oracle-java8-installer
     - ca-certificates
     - oracle-java8-set-default
